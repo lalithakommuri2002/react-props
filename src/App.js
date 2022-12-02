@@ -1,3 +1,4 @@
+
 /*import ClassComponent from './ClassComponent'
 import ClassComponent2 from './ClassComponent2'
 function App(){
@@ -19,7 +20,8 @@ export default App*/
 
 //import PropsExample from './PropsExample'
 //import FuncPropExample from './FuncPropExample'
-import StateExample from "./StateExample"
+//import StateExample from "./StateExample"
+import Events from './Events'
 function App(){
   return(
       <div>
@@ -27,9 +29,10 @@ function App(){
           <PropsExample name="lalitha" age="20"/>
           <PropsExample name="manasa" age="20"/>
           <PropsExample name="navya" age="20"/>*/}
-          {/*<FuncPropExample framework="react" number="2" name="lalli" age="20"/>*/}
+          {/*<FuncPropExample framework="react" number="2" name="lalli" age="20"/>
           
-          <StateExample/>
+          <StateExample/>*/}
+          <Events/>
       </div>
     )
 }
